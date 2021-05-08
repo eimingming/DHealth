@@ -1,0 +1,105 @@
+html, body{
+    background-color: #BAD0FB;
+    margin: 0px;
+    padding: 0px;
+}
+/*Start Sytle for bar*/
+.top-header{
+    background-color: white;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column-logo{
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+}
+
+.column-button{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo{
+    width: 150px;
+    height: 52.75px;
+}
+
+.button_home{
+    color: #3C8AFF;
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px; 
+}
+
+.button_test{
+    background-color: #74ABFD;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px; 
+    width: 150px;
+    height: 40px; 
+    list-style-type: none;
+    text-decoration: none;  
+    border: none; 
+}
+
+
+.button_test span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button_test span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button_test:hover span {
+padding-right: 25px;
+}
+
+.button_test:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+.button {
+    background-color: #74ABFD;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.row_contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain{
+    width: 1500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+
+/*End Sytle for bar*/
