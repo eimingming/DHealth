@@ -2,9 +2,14 @@ html, body{
     background-color: #BAD0FB;
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*Start Sytle for bar*/
-.top-header{
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 65PX;
     background-color: white;
 }
 
@@ -12,23 +17,15 @@ html, body{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.column-logo{
-    width: 50%;
-    flex-direction: row;
-    display: flex;
-}
-
-.column-button{
-    width: 50%;
-    display: flex;
-    flex-direction: row-reverse;
+    background-color: white;
+    
 }
 
 .logo{
-    width: 150px;
-    height: 52.75px;
+    margin-left: 20px;
+    margin-right: auto;
+    height: 60.75px;
+    width: 160px;
 }
 
 .button_home{
@@ -37,6 +34,9 @@ html, body{
     padding: 10px;
     text-decoration: none;
     font-size: 16px; 
+    list-style: none;
+    margin-right: 20px;
+
 }
 
 .button_test{
@@ -49,8 +49,8 @@ html, body{
     list-style-type: none;
     text-decoration: none;  
     border: none; 
+    margin-right: 20px;
 }
-
 
 .button_test span {
     cursor: pointer;
@@ -88,18 +88,24 @@ button:focus {
     outline: 0;
 }
 
-.row_contain{
+.footer{
+    margin-top: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 40PX;
 }
 
-.contain{
-    width: 1500px;
-    height: 500px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
+.footer_text{
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    margin-right: 30px;
 }
 
-
+.logo-git{
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
 /*End Sytle for bar*/

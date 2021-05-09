@@ -1,0 +1,178 @@
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    height: 82%;
+}
+
+.contain{
+    width: 100%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    height: 20%;
+    width: 100%;
+    font-size: 50px;
+    color: #6B91FC;
+    font-weight: bold;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+.col1{
+    flex-basis: 45%;
+    justify-content: flex-end;
+    margin: auto auto;    
+}
+
+.col2{
+    flex-basis: 45%;
+    margin: auto auto;
+    justify-content: center;
+}
+
+.pic_main{
+    width: 90%;
+    height: 90%;
+    border-radius: 40px;
+    margin: auto auto;
+    margin-left: 10%;
+}
+
+.col1-info{
+    flex-basis: 45%;
+    margin: auto auto;
+}
+
+.col2-info{
+    flex-basis: 45%;
+    margin: auto auto;
+}
+
+.row_space{
+    justify-content: space-between;
+    display: flex;
+}
+
+.col-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 22px;
+}
+
+
+.title{
+    text-align: center;
+}
+
+.row_form{
+    width: 80%;
+    margin: auto auto;
+}
+
+.input_contain{
+    display: flex;
+    justify-content:  space-between;
+    margin-bottom: 5%;
+}
+
+.input_form{
+    width: 45%;
+    display: flexbox;
+}
+
+input[type="text"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 90%;
+    border-width: 3px;
+    border-color: #6B91FC;
+    border-style: solid;
+    border-radius: 20px;
+    outline: transparent;
+}
+
+input[type="email"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 90%;
+    border-width: 3px;
+    border-color: #6B91FC;
+    border-style: solid;
+    border-radius: 20px;
+    outline: transparent;
+}
+
+input[type="tel"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 90%;
+    border-width: 3px;
+    border-color: #6B91FC;
+    border-style: solid;
+    border-radius: 20px;
+    outline: transparent;
+}
+
+input[type="number"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 90%;
+    border-width: 3px;
+    border-color: #6B91FC;
+    border-style: solid;
+    border-radius: 20px;
+    outline: transparent;
+}
+
+.gender_sec{
+    font-size: 16px;
+    padding: 10px;
+    width: 90%;
+    border-width: 3px;
+    border-color: #6B91FC;
+    border-style: solid;
+    border-radius: 20px;
+    outline: transparent;
+}
+
+.input_containButton{
+    text-align: center;
+}
+
+.button_cancel{
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    border-radius: 20px;
+    background-color: #FF8383;
+    border-width: 3px;
+    border-color: #FF8383;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-right: 20%;
+}
+
+.button_submit{
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    border-radius: 20px;
+    background-color:#6B91FC ;
+    border-width: 3px;
+    border-color: #6B91FC;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
