@@ -21,25 +21,25 @@
                 </div>
                 <div class="col2">
                     <div class="contain">
-                        <form class="form_card" style="width: 100%; margin-top: 5%; ">
+                        <form class="form_card" style="width: 100%; margin-top: 5%;" action="userInfo.php" method="post">
                             <div class="title">
                                 <h1>User Information</h1>
                             </div>
                             <div class="row_form">
                                 <div class="input_contain">
                                     <div class="input_form">
-                                        <label for="fname">First name</label><br>
-                                        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required >
+                                        <label for="name">First name</label><br>
+                                        <input type="text" id="name" name="name" placeholder="Enter your first name" required >
                                     </div>
                                     <div class="input_form">
-                                        <label for="email">Last name</label><br>
+                                        <label for="lastName">Last name</label><br>
                                         <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required >
                                     </div>
                                 </div>
                                 <div class="input_contain">
                                     <div class="input_form">
-                                        <label for="fname">Gender</label><br>
-                                        <select class="gender_sec" id="cars" name="cars" placeholder="Choose your gender" required >
+                                        <label for="gender">Gender</label><br>
+                                        <select class="gender_sec" id="gender" name="gender" placeholder="Choose your gender" required >
                                             <option value="female">Female</option>
                                             <option value="male">Male</option>
                                             <option value="other" selected>Other</option>
@@ -56,8 +56,8 @@
                                         <input type="email" id="email" name="email" placeholder="Enter your email" required > 
                                     </div>
                                     <div class="input_form">  
-                                        <label for="phone">Phone No.</label><br>
-                                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone numbre" pattern="[0-9]{10}" required><br>
+                                        <label for="tel">Phone No.</label><br>
+                                        <input type="tel" id="tel" name="tel" placeholder="Enter your phone numbre" pattern="[0-9]{10}" required><br>
                                         <small>Format: 084xxxxxxx</small>
                                     </div>
                                 </div>
