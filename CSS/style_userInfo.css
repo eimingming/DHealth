@@ -91,6 +91,10 @@ h1{
     display: flexbox;
 }
 
+label{
+    font-weight: bold;   
+}
+
 input[type="text"]{
     font-size: 16px;
     padding: 10px;
@@ -100,6 +104,7 @@ input[type="text"]{
     border-style: solid;
     border-radius: 20px;
     outline: transparent;
+    margin-top: 5%;
 }
 
 input[type="email"]{
@@ -111,6 +116,7 @@ input[type="email"]{
     border-style: solid;
     border-radius: 20px;
     outline: transparent;
+    margin-top: 5%;
 }
 
 input[type="tel"]{
@@ -122,6 +128,8 @@ input[type="tel"]{
     border-style: solid;
     border-radius: 20px;
     outline: transparent;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 input[type="number"]{
@@ -133,6 +141,7 @@ input[type="number"]{
     border-style: solid;
     border-radius: 20px;
     outline: transparent;
+    margin-top: 5%;
 }
 
 .gender_sec{
@@ -144,10 +153,17 @@ input[type="number"]{
     border-style: solid;
     border-radius: 20px;
     outline: transparent;
+    margin-top: 5%;
 }
 
 .input_containButton{
     text-align: center;
+    margin-bottom: 10%;
+}
+
+small{
+    margin-left: 5%;
+    color: red;
 }
 
 .button_cancel{

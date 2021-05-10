@@ -21,7 +21,7 @@
                 </div>
                 <div class="col2">
                     <div class="contain">
-                        <form class="form_card" style="width: 100%;">
+                        <form class="form_card" style="width: 100%; margin-top: 5%; ">
                             <div class="title">
                                 <h1>User Information</h1>
                             </div>
@@ -29,35 +29,36 @@
                                 <div class="input_contain">
                                     <div class="input_form">
                                         <label for="fname">First name</label><br>
-                                        <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+                                        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required >
                                     </div>
                                     <div class="input_form">
                                         <label for="email">Last name</label><br>
-                                        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name">
+                                        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required >
                                     </div>
                                 </div>
                                 <div class="input_contain">
                                     <div class="input_form">
                                         <label for="fname">Gender</label><br>
-                                        <select class="gender_sec" id="cars" name="cars" placeholder="Choose your gender">
+                                        <select class="gender_sec" id="cars" name="cars" placeholder="Choose your gender" required >
                                             <option value="female">Female</option>
                                             <option value="male">Male</option>
                                             <option value="other" selected>Other</option>
                                         </select>
                                     </div>
                                     <div class="input_form">
-                                        <label for="email">Age</label><br>
-                                        <input type="number" id="lastName" name="lastName" placeholder="Enter your age">
+                                        <label for="age">Age</label><br>
+                                        <input type="number" id="age" name="age" placeholder="Enter your age" required >
                                     </div>
                                 </div>
                                 <div class="input_contain">
                                     <div class="input_form">                            
-                                        <label for="fname">E-mail</label><br>
-                                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                                        <label for="email">E-mail</label><br>
+                                        <input type="email" id="email" name="email" placeholder="Enter your email" required > 
                                     </div>
                                     <div class="input_form">  
-                                        <label for="email">Phone No.</label><br>
-                                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                                        <label for="phone">Phone No.</label><br>
+                                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone numbre" pattern="[0-9]{10}" required><br>
+                                        <small>Format: 084xxxxxxx</small>
                                     </div>
                                 </div>
                                 <div class="input_containButton">
