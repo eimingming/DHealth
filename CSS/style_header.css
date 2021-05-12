@@ -2,6 +2,7 @@ html, body{
     background-color: #BAD0FB;
     margin: 0px;
     padding: 0px;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*Start Sytle for bar*/
@@ -89,11 +90,13 @@ button:focus {
 }
 
 .footer{
-    margin-top: 20px;
     display: flex;
+    bottom: 0;
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
-    height: 40PX;
+    height: 50PX;
+    width: 100%;
 }
 
 .footer_text{

@@ -1,0 +1,112 @@
+.row{
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+}
+
+.col1{
+    flex-basis: 45%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+.col2{
+    flex-basis: 45%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+.contain{
+    width: 80%;
+    height: 99%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    display: block;
+    align-items: center;
+}
+
+h1{
+    display: block;
+    height: 15%;
+    font-size: 50px;
+    color: #6B91FC;
+    font-weight: bold;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    text-align: center;
+}
+
+h2{
+    display: block;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    margin-top: 10%;
+    text-align: center;
+}
+
+p1{
+    display: block;
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+p2{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p3{
+    font-size: 50px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: white;
+}
+
+p4{
+    color: white;
+    font-size: 25px;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+a{
+    display: block;
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.row_score{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.score{
+    display: block;
+    width: 140px;
+    height: 140px;
+    background: #A5C3FE;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic_result{
+    width: 90%;
+    height: 60%;
+    border-radius: 40px;
+    margin: auto auto;
+    margin-left: 5%;
+    margin-top: 20px;
+}

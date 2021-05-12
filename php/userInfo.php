@@ -1,8 +1,18 @@
 <?php
-    $name = $_POST['name'];
-    $lastName = $_POST['lastName'];
-    $gender = $_POST['gender'];
-    $age = $_POST['age'];
-    $email = $_POST['email'];
-    $tel = $_POST['tel'];
+    $name = $_GET['name'];
+    $lastName = $_GET['lastName'];
+    $gender = $_GET['gender'];
+    $age = $_GET['age'];
+    $email = $_GET['email'];
+    $tel = $_GET['tel'];
 ?>
+
+
+
+<!-- Test 
+<!DOCTYPE HTML>
+<html>
+    <body>
+    </body>
+</html>
+--->
