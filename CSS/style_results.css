@@ -32,7 +32,7 @@
 h1{
     display: block;
     height: 15%;
-    font-size: 50px;
+    font-size: 3vw;
     color: #6B91FC;
     font-weight: bold;
     font-family: Comic Sans, Comic Sans MS, cursive;
@@ -41,7 +41,7 @@ h1{
 
 h2{
     display: block;
-    font-size: 30px;
+    font-size: 2vw;
     color: black;
     font-weight: bold;
     font-family: Comic Sans, Comic Sans MS, cursive;
@@ -51,7 +51,8 @@ h2{
 
 p1{
     display: block;
-    font-size: 18px;
+    font-size: 1vw;
+    font-weight: bold;
     margin-left: 5%;
 }
 
@@ -60,6 +61,8 @@ p2{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1vw;
+    margin-top: 5%;
 }
 
 p3{
@@ -79,24 +82,25 @@ a{
     display: block;
     color: black;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 1vw;
     text-align: center;
 }
 
 .row_score{
-    height: 30%;
+    height: 40%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .score{
     display: block;
-    width: 140px;
-    height: 140px;
-    background: #A5C3FE;
+    width: 180px;
+    height: 180px;
+    background: #5981d1;
     -moz-border-radius: 70px;
     -webkit-border-radius: 70px;
-    border-radius: 70px;
+    border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
