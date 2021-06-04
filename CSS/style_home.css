@@ -43,7 +43,7 @@ h1{
 }
 
 .col2-sub{
-    flex-basis: 50%;
+    flex-basis: 60%;
     margin-left: 30px;
     margin-right: 30px;
     margin: auto auto ;
@@ -57,7 +57,7 @@ h1{
 }
 
 .text-detail{
-    font-size: 24px;
+    font-size: 1.5vw;
 }
 
 .pic_main{
